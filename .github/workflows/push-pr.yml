@@ -1,3 +1,4 @@
+name: testworkflow
 on:
     push:
         branches:
