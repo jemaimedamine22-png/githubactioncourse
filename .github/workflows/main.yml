@@ -11,3 +11,9 @@ jobs:
     steps:
       - name: print a welcome message
         run: echo "welcome to our first github actios workflow"
+
+      - name: checkout repository
+        uses: actions/checkout@v4.2.2
+
+      - name: list repoy files
+        run: ls -la
