@@ -16,7 +16,7 @@ jobs:
 
         steps:
         - name: chekout code
-          uses: actios/checkout@v4.2.2
+          uses: actions/checkout@v4.2.2
 
         - name: run test
           run: npm test
